@@ -1,0 +1,4 @@
+interface:
+  display_name: "RH-minimax-H3"
+  short_description: "RunningHub H3 小白 V2：多图音频、四组 LoRA 和任务恢复"
+  default_prompt: "使用 $rh-minimax-h3 按我的提示词和参考素材生成视频，保存结果及任务用量。"

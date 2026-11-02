@@ -1,0 +1,4 @@
+interface:
+  display_name: "Multi-Shot Prompt"
+  short_description: "视频梗概、影片质感、分类素材锁定、时间线与对白的完整提示词编译"
+  default_prompt: "使用 multi-shot-prompt，选择 standalone_mode，按视频梗概、影片质感、素材锁定、分镜的顺序生成完整多镜头提示词；每镜视频内容按连续时间段写，带引号的台词同时写入实际开口时刻与台词栏。"

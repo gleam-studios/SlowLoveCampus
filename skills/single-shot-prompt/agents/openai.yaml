@@ -1,0 +1,4 @@
+interface:
+  display_name: "Single Shot Prompt"
+  short_description: "创作、修改和审查不切镜的单镜头短视频提示词，保留创意与设计自由"
+  default_prompt: "Use $single-shot-prompt to create, revise, or review an uncut, single-shot short video prompt with creative direction and the user's requirements."

@@ -1,0 +1,233 @@
+{
+  "skill": "character-design",
+  "version": "1.4.3",
+  "confirmed_date": "2026-10-30",
+  "decision": "用户确认真人四条路线模板定稿，独立文生图生成测试通过；逐张视觉偏差与正常参考流程的身份一致性仍在实际制作验收。",
+  "coverage": "16 active realistic templates; CG/AAA and outfit modules not newly generation-tested in this release",
+  "templates": [
+    {
+      "template": "assets/templates/realistic-base/portrait.txt",
+      "template_sha256": "77953262fcf6c893a779085b662f895fddd7d8520de558fa10b684ae12bc333b",
+      "run": "character-design-text-retest-v1.3.0-2026-10-29",
+      "input": "independent-text-only",
+      "image_sha256": "690a5fa54f746f56857a8183b4c071e9025edfcad9d651f5d1df8bf56a088374",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "prompt_sha256": "8fb176e31e25215b1e4a1edc697afa982f79b587f4dd8a15ffaa6661f4c3d59f",
+      "generation": "succeeded",
+      "visual_review": "可用"
+    },
+    {
+      "template": "assets/templates/realistic-base/head-four.txt",
+      "template_sha256": "48f0dd5d6e6913210033f0bc759594301c9346c59910e0b1449f951c0b637ba0",
+      "run": "character-design-text-retest-v1.3.0-2026-10-29",
+      "input": "independent-text-only",
+      "image_sha256": "16b79ccf3b0a338b737bd052a19afeb7e081519ee2cf53e485606fdb1e4c2b16",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "prompt_sha256": "2a9268ea4103a59e072cbd492b26c00806a3a204c94853a044d710e5a1ec9b67",
+      "generation": "succeeded",
+      "visual_review": "可用"
+    },
+    {
+      "template": "assets/templates/realistic-base/half.txt",
+      "template_sha256": "2b214e47ffe078b8355e42105a435ea0d5f75c2b97810ac41e66935271f93b22",
+      "run": "character-design-text-retest-v1.3.0-2026-10-29",
+      "input": "independent-text-only",
+      "image_sha256": "71bfe61de52536d9ea239b0691708dc0f2de8ff9a557dcabcb65abb9a4315abd",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "prompt_sha256": "ae07eac1beade94cb8e7cc5e76e544b389dcb635cb8c8dea98c6fbe6cb15b261",
+      "generation": "succeeded",
+      "visual_review": "局部可用"
+    },
+    {
+      "template": "assets/templates/realistic-base/body-three.txt",
+      "template_sha256": "783ff3f6fa98eaf91f336294b6b4b05ae4d13a916f77b0ac1bd25c013cd7b4fc",
+      "run": "character-design-text-retest-v1.3.0-2026-10-29",
+      "input": "independent-text-only",
+      "image_sha256": "d39a17af34104574836963b9cffc3f511c84b8f2aad09cde5989f28287e0905b",
+      "dimensions": [
+        941,
+        1672
+      ],
+      "prompt_sha256": "3633bd5da3efdb214e906f712f402e0245ea1850dd1662116bd024fa1ce54836",
+      "generation": "succeeded",
+      "visual_review": "需修正"
+    },
+    {
+      "template": "assets/templates/realistic-base/board.txt",
+      "template_sha256": "e63ead4aa206215f93a6d6f144057529198c495dd9f298acad453147ecdeadb8",
+      "run": "character-design-text-retest-v1.3.0-2026-10-29",
+      "input": "independent-text-only",
+      "image_sha256": "1fcdc40fab06fd1ef49c825c7942662bfbcdb90e09c4287845937025b61babe9",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "prompt_sha256": "a1f97024f8b6b93b716e5495d8ce4a91701457c79c81fd93685300dc3d34f3c1",
+      "generation": "succeeded",
+      "visual_review": "可用"
+    },
+    {
+      "template": "assets/templates/beauty/portrait.txt",
+      "template_sha256": "e7355d37723eed704d6fb1cd0192dc6261173f4e3fc413ef58ecd86f7feb173e",
+      "run": "character-design-beauty-outfit-v1.4.3-retest-2026-10-29",
+      "input": "independent-text-only",
+      "image_sha256": "afbf3bb2767967a21fde74e6c87e6bd49699a16d01e291abc756f085ec177d38",
+      "dimensions": [
+        1218,
+        1292
+      ],
+      "prompt_sha256": "116cdeb217d7601f8a73bf7ae9202608a4d518b939e2383397ad05f416a4d260",
+      "generation": "succeeded",
+      "visual_review": "局部可用"
+    },
+    {
+      "template": "assets/templates/beauty/head-four.txt",
+      "template_sha256": "cee058b9601b4d5c9747c878c8cdb33006297fb782da056e68a0f288a8e0593b",
+      "run": "character-design-beauty-outfit-v1.4.3-retest-2026-10-29",
+      "input": "independent-text-only",
+      "image_sha256": "70957884f60767b16283f847a4f51ebba8f4ff6518a171bf393196bc7a85f96c",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "prompt_sha256": "c221f003b744121a4ab832e6e8d2ec866d89e394a5e1285e1bf07b09a4b8ad14",
+      "generation": "succeeded",
+      "visual_review": "局部可用"
+    },
+    {
+      "template": "assets/templates/beauty/half.txt",
+      "template_sha256": "9490c512b80abc752739a52bf37a58796b75431ba1fb24c504a2cc5ec52283f5",
+      "run": "character-design-beauty-outfit-v1.4.3-retest-2026-10-29",
+      "input": "independent-text-only",
+      "image_sha256": "62d0a8908985b64d3f09a47ce97d21b1fac3209fccb3c9f8088356fb9a8da61d",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "prompt_sha256": "862d0a1471f01e548257e10367315afbbd162a2403c9dca97f58097895cf1c65",
+      "generation": "succeeded",
+      "visual_review": "可用"
+    },
+    {
+      "template": "assets/templates/beauty/body-three.txt",
+      "template_sha256": "04ef883e994d57a43b2e1b33bee18a35af8e517ac63ddb03828e6725eec78f20",
+      "run": "character-design-beauty-outfit-v1.4.3-retest-2026-10-29",
+      "input": "independent-text-only",
+      "image_sha256": "8c46881bc99d945715be10f28d86e9cbd4a5cc2c80159ed787489c61ba2eddb1",
+      "dimensions": [
+        941,
+        1672
+      ],
+      "prompt_sha256": "51046b1ad8622f321ae5c078e8136391b93e566769d11625f144f2bf5b824a11",
+      "generation": "succeeded",
+      "visual_review": "局部可用"
+    },
+    {
+      "template": "assets/templates/beauty/board.txt",
+      "template_sha256": "f4269a5b3afa8cabfcad2206c17accacd6f1eca702757bc0108f49aa108f690d",
+      "run": "character-design-beauty-outfit-v1.4.3-retest-2026-10-29",
+      "input": "independent-text-only",
+      "image_sha256": "607965048994cd52bb40d92ccc82ac38b06196c2548e28a69d40fb311e34b018",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "prompt_sha256": "30ee88d4007779aee7a1eddbea8d8a991406db8586a0a1af47b5bc854fc0c424",
+      "generation": "succeeded",
+      "visual_review": "局部可用"
+    },
+    {
+      "template": "assets/templates/handsome/portrait.txt",
+      "template_sha256": "d6f3af6249bd38a1b7062351e57c8627bbeb83d5fa6db44d37514d6ff1ee9371",
+      "run": "character-design-beauty-handsome-retest-v1.3.1-2026-10-29",
+      "input": "independent-text-only",
+      "image_sha256": "6e43c63ae630570366798da43aefb3c88da695a37c72b4764c42d35e85654c49",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "prompt_sha256": "0ddbee8efd8e9bfba550080a55430e004f6ae748e67ce5ba343aadfc03f5c241",
+      "generation": "succeeded",
+      "visual_review": "局部可用"
+    },
+    {
+      "template": "assets/templates/handsome/head-four.txt",
+      "template_sha256": "543873f1a1cd3398ee8ddad107b76261f380546bcef075833bf1bdce7fe96ae3",
+      "run": "character-design-beauty-handsome-retest-v1.3.1-2026-10-29",
+      "input": "independent-text-only",
+      "image_sha256": "ef627ce76d0607121fd0132bf9c16093e2db05ef225bd3f1965344d5714b6fcc",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "prompt_sha256": "714a45ae08bfb8318dabb34db938396db5b10063c1dcc262f05673cc6ddac86c",
+      "generation": "succeeded",
+      "visual_review": "局部可用"
+    },
+    {
+      "template": "assets/templates/handsome/half.txt",
+      "template_sha256": "afc70fb6224a283554116a6ae5e7bc31ae9ecb6d8aceb6543fcf68d15dac70d2",
+      "run": "character-design-beauty-handsome-retest-v1.3.1-2026-10-29",
+      "input": "independent-text-only",
+      "image_sha256": "f51deaeb5f12d5cdf90edec3f3e795ae3672204d1c3f5b341e25d6cf8b0b4a86",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "prompt_sha256": "6acfe1f0a60397e5cf2fcd11c12c3804cdb273ba5ac29fa060d320be7fc65b74",
+      "generation": "succeeded",
+      "visual_review": "局部可用"
+    },
+    {
+      "template": "assets/templates/handsome/body-three.txt",
+      "template_sha256": "a5975aa3abea64ff649c359bb2723f828c9bf10ecef3ffc1567c24e0f5166793",
+      "run": "character-design-beauty-handsome-retest-v1.3.1-2026-10-29",
+      "input": "independent-text-only",
+      "image_sha256": "66c906473c2dcdcb4c70a126d007f42035c6d4295f39152983cf83f3d67ddfe6",
+      "dimensions": [
+        941,
+        1672
+      ],
+      "prompt_sha256": "5977e4111e1ab7d958f05cc774c3cdb8a38bb6e23f91c5fbaaf6abf49cd7e4f3",
+      "generation": "succeeded",
+      "visual_review": "需修正"
+    },
+    {
+      "template": "assets/templates/handsome/board.txt",
+      "template_sha256": "14ab3ba22e4555fa630cc086112a0e0b2d29b604a1502594b99f02e3710be292",
+      "run": "character-design-beauty-handsome-retest-v1.3.1-2026-10-29",
+      "input": "independent-text-only",
+      "image_sha256": "eb8bfd9140a9086468ba605d5f519af82bdee3e6feae5500234653989cf691a4",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "prompt_sha256": "694808dc72c1f2ba604f0efb735028f2642291d33b3f3d25e83158388bad5717",
+      "generation": "succeeded",
+      "visual_review": "需修正"
+    },
+    {
+      "template": "assets/templates/realistic/board.txt",
+      "template_sha256": "232c6f8b0177f84c405a8811964b34b903f86ffb28f1c14f11dd8a5471f317ba",
+      "run": "character-design-text-retest-v1.3.0-2026-10-29",
+      "input": "independent-text-only",
+      "image_sha256": "975d295c1fd5dfd983800501e6a15e9a6daef2f5a87a00898c16561ce6613c64",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "prompt_sha256": "1ab70a309f6bd570773d0094a9d3cbed5a3ab669d2591a78dff8cbd8205ff7be",
+      "generation": "succeeded",
+      "visual_review": "局部可用"
+    }
+  ]
+}

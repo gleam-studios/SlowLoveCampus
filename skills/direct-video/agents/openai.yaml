@@ -1,0 +1,6 @@
+interface:
+  display_name: "视频导演与审美"
+  short_description: "主动完成视频的视觉定调、分镜、节奏、声音与证据验收"
+  default_prompt: "Use $direct-video to direct a polished video with suitable references and evidence-based review."
+policy:
+  allow_implicit_invocation: true

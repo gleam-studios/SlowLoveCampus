@@ -1,0 +1,15 @@
+{
+  "name": "single-shot-prompt",
+  "version": "1.1.1",
+  "description": "创作、修改和审查不切镜的单镜头短视频提示词，保留创意、美术与设计自由。",
+  "private": true,
+  "license": "MIT",
+  "keywords": [
+    "short-video",
+    "single-shot",
+    "video-prompt",
+    "creative-direction",
+    "art-direction",
+    "skill"
+  ]
+}

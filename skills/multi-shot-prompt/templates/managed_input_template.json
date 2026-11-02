@@ -1,0 +1,37 @@
+{
+  "execution_mode": "managed_mode",
+  "approval": {
+    "status": "approved",
+    "authority": "master-director-agent",
+    "shot_brief_hash": "sha256:<upstream-approved-hash>"
+  },
+  "shot_brief": {
+    "purpose": "<approved narrative or commercial objective>",
+    "duration_s": 10,
+    "shots": [
+      {
+        "id": "shot-001",
+        "start_s": 0,
+        "end_s": 10,
+        "framing": "<approved framing>",
+        "camera": "<approved camera path>",
+        "action": "<approved chronological action>",
+        "performance": "<approved performance>",
+        "blocking": "<approved spatial movement>",
+        "composition_lock": "<approved composition>",
+        "end_state": "<approved final visual state>"
+      }
+    ]
+  },
+  "material_lock": {
+    "status": "locked",
+    "hash": "sha256:<upstream-approved-hash>",
+    "content": "<approved material-lock text>"
+  },
+  "style": {
+    "status": "approved",
+    "hash": "sha256:<upstream-approved-hash>",
+    "content": "<approved style text>"
+  },
+  "asset_map": []
+}

@@ -1,0 +1,25 @@
+{
+  "character_id": "C01",
+  "asset_kind": "variant",
+  "style": "aaa",
+  "outfit_id": "L01",
+  "state_id": "wet",
+  "story_usage": "场次5，雨后",
+  "version": "v002",
+  "parent_version": "C01/L01/clean/v001",
+  "image": "C01-L01-wet-v002.png",
+  "source_panels": [
+    "head-four-v001.png",
+    "half-v001.png",
+    "body-three-v001.png"
+  ],
+  "layout": "board-layout.json",
+  "prompt": "C01-L01-wet-v002.txt",
+  "references": [],
+  "user_confirmation": "造型已确认；状态图未要求额外确认",
+  "review": {
+    "status": "未核验",
+    "evidence": [],
+    "limitations": []
+  }
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Character Design"
+  short_description: "建立写实与CG角色参考板，完成服装设计、受控换装及剧情状态裂变"
+  default_prompt: "使用 $character-design 复用已有资产，建立角色基础参考板，并按需要完成服装妆造与剧情状态裂变。"

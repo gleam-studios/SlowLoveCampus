@@ -1,0 +1,570 @@
+{
+  "schema_version": 1,
+  "purpose": "R2V判断行为的可复用验收夹具；预期判断不是实际生成结果。",
+  "execution_status": "author_desktop_walkthrough_only",
+  "independent_agent_run": false,
+  "media_generation_run": false,
+  "evaluation_method": "将input单独交给加载R2V的执行者，再依据expected_decisions与failure_signals评审；记录实际输入、输出、所加载文件和遗漏项。任何实跑应由项目既有授权与工具执行。",
+  "cases": [
+    {
+      "id": "R2V-01",
+      "title": "简单单视角已有充分素材",
+      "category": "最小充分与停止条件",
+      "evidence_type": "设计用合成场景",
+      "input": {
+        "brief": "4秒固定机位展示陶杯，少量蒸汽变化，采用给定陶釉质感。",
+        "assets_and_observations": [
+          "一张前侧视角图已查看，杯体与周围场景完整清楚；背面和内部不会出现。"
+        ],
+        "capabilities": [
+          "已确认单图生成；项目已验证720P满足此次细节和播放尺寸。"
+        ]
+      },
+      "expected_decisions": [
+        "采用现有图，兼任主体、材质、构图与场景依据。",
+        "得出无需新增素材，可直接生成。",
+        "沿用已验证档位，检查蒸汽与杯体稳定。"
+      ],
+      "failure_signals": [
+        "默认补角色/道具四面图、俯视图或白模。",
+        "把低清试验列为每次必做。"
+      ],
+      "read_sections": [
+        "asset-selection.md：道具与产品",
+        "generation-strategy.md：直接生成"
+      ]
+    },
+    {
+      "id": "R2V-02",
+      "title": "转身镜头只缺背面服装",
+      "category": "角色补齐",
+      "evidence_type": "设计用合成场景",
+      "input": {
+        "brief": "指定角色穿非对称外套转身展示，必须还原穿法。",
+        "assets_and_observations": [
+          "面部和正面全身资料清楚且身份一致。",
+          "背部外套结构未定义，侧面鞋与饰品已明确。"
+        ],
+        "capabilities": [
+          "支持多图参考，项目相似转身可用。"
+        ]
+      },
+      "expected_decisions": [
+        "发现必要缺口是背面造型，不是全部角色资料。",
+        "补背面全身，继承身份、体型与已定外套。",
+        "检查正背服装结构与穿法能否对应。"
+      ],
+      "failure_signals": [
+        "直接猜测未定义的非对称背部结构。",
+        "无条件重做完整九视图。"
+      ],
+      "read_sections": [
+        "asset-selection.md：角色与服装",
+        "production-brief.md：资产补齐要求"
+      ]
+    },
+    {
+      "id": "R2V-03",
+      "title": "四套造型资产已经充分",
+      "category": "避免重复制作",
+      "evidence_type": "设计用合成场景",
+      "input": {
+        "brief": "按给定镜头表复刻四套造型展示，衣服需要准确，已有明确切点。",
+        "assets_and_observations": [
+          "四套穿搭后角色多视图及面部图均已查看，一致且可读。",
+          "独立版面图与原事件表齐全。"
+        ],
+        "capabilities": [
+          "支持当前需要的多图参考数量；身份与造型组合有相近实测。"
+        ]
+      },
+      "expected_decisions": [
+        "直接复用四套已定角色资产，按镜头取相关子集。",
+        "无需再从服装图制作相同上身图。",
+        "使用已有时间轴提出可用动作区间与检查点。"
+      ],
+      "failure_signals": [
+        "只因是四套衣服就重新制作四套关键帧。",
+        "所有图不加区分地上传每个镜头。"
+      ],
+      "read_sections": [
+        "asset-selection.md：角色与服装",
+        "reference-composition.md：最小输入包"
+      ]
+    },
+    {
+      "id": "R2V-04",
+      "title": "换人任务且当前视频编辑可用",
+      "category": "能力变化对照A",
+      "evidence_type": "设计用合成场景",
+      "input": {
+        "brief": "将参考片中的人物替换为指定角色，保留动作和背景。",
+        "assets_and_observations": [
+          "目标人物清楚的面部和全身资料已查看。",
+          "原片及其动作、遮挡关系已查看。"
+        ],
+        "capabilities": [
+          "当前入口支持视频编辑和目标人物参考；相近换人任务已有有效实测。"
+        ]
+      },
+      "expected_decisions": [
+        "优先评估现有视频编辑，明确替换范围与保持项。",
+        "原片作为编辑输入，人物图作为目标身份。",
+        "验证原人物残留和原动作/背景意外改变。"
+      ],
+      "failure_signals": [
+        "把所有原视频视为必然污染而一律撤下。",
+        "无条件制作无人版面图。"
+      ],
+      "read_sections": [
+        "reference-composition.md：图片＋视频",
+        "generation-strategy.md：生成方式"
+      ]
+    },
+    {
+      "id": "R2V-05",
+      "title": "相同换人目标但只有单图入口",
+      "category": "能力变化对照B",
+      "evidence_type": "设计用合成场景",
+      "input": {
+        "brief": "采用与R2V-04相同参考和角色，允许复刻式重制但必须保留关键动作和版面。",
+        "assets_and_observations": [
+          "与R2V-04相同资料均可查看；已提取事件表。"
+        ],
+        "capabilities": [
+          "仅支持单图生成，明确无视频输入和视频编辑。"
+        ]
+      },
+      "expected_decisions": [
+        "原片仅作分析，不声称可上传为动作条件。",
+        "判断组合关键帧或可读参考板是否能承载目标身份和版面。",
+        "记录动作精确复刻受限，必要验证该方式能否满足要求。"
+      ],
+      "failure_signals": [
+        "照用视频编辑或虚构视频输入槽。",
+        "保证一张整理板可完全替代原视频。"
+      ],
+      "read_sections": [
+        "reference-composition.md：最小输入包",
+        "generation-strategy.md：能力条件"
+      ]
+    },
+    {
+      "id": "R2V-06",
+      "title": "同方向多景别不等于多面场景",
+      "category": "场景最小充分",
+      "evidence_type": "设计用合成场景",
+      "input": {
+        "brief": "同一工作室拍三个景别，摄影机始终在同一侧。",
+        "assets_and_observations": [
+          "主视角图信息充分，所有景别会显示的区域均有清楚依据。"
+        ],
+        "capabilities": [
+          "图片参考可用。"
+        ]
+      },
+      "expected_decisions": [
+        "主视角可以复用为场景和风格依据。",
+        "镜头数不是补四面图的理由。",
+        "检查不同景别的主体尺度和背景一致。"
+      ],
+      "failure_signals": [
+        "三个镜头就要求正反/四面场景图。"
+      ],
+      "read_sections": [
+        "asset-selection.md：场景与空间"
+      ]
+    },
+    {
+      "id": "R2V-07",
+      "title": "穿门绕柱的一镜到底",
+      "category": "空间与走位补齐",
+      "evidence_type": "设计用合成场景",
+      "input": {
+        "brief": "角色从前厅穿门进入侧厅，相机跟随并绕柱，保持连续镜头。",
+        "assets_and_observations": [
+          "只有前厅主视角，侧厅结构和门的连接未知。"
+        ],
+        "capabilities": [
+          "当前入口可参考场景图与白模预演，相近空间跟随效果尚待验证。"
+        ]
+      },
+      "expected_decisions": [
+        "优先补实际会出现的空间连接和方向资料。",
+        "人物路径与相机位置/看向方向分开表达。",
+        "只有多图不能充分控制时才升级白模预演。"
+      ],
+      "failure_signals": [
+        "只重复电影感描述而不处理空间缺口。",
+        "无条件要求高精度完整建筑建模。"
+      ],
+      "read_sections": [
+        "asset-selection.md：场景与空间",
+        "generation-strategy.md：生成单元"
+      ]
+    },
+    {
+      "id": "R2V-08",
+      "title": "连续时长超过当前能力",
+      "category": "要求与能力不匹配",
+      "evidence_type": "设计用合成场景",
+      "input": {
+        "brief": "18秒真实一镜到底，用户要求全程连续，不接受剪切。",
+        "assets_and_observations": [
+          "场景、路线、角色资料充分。"
+        ],
+        "capabilities": [
+          "当前唯一入口最多6秒，明确不支持延续。"
+        ]
+      },
+      "expected_decisions": [
+        "指出不是素材缺口，而是要求和能力不匹配。",
+        "保留用户一镜到底要求。",
+        "交导演明确需要可满足连续时长的能力。"
+      ],
+      "failure_signals": [
+        "偷偷拆成三段硬切并称一镜到底。",
+        "反复补图试图解决确定的时长限制。"
+      ],
+      "read_sections": [
+        "generation-strategy.md：生成单元",
+        "production-brief.md：返回范围"
+      ]
+    },
+    {
+      "id": "R2V-09",
+      "title": "产品化列车开门与驶离",
+      "category": "道具功能与状态",
+      "evidence_type": "历史用户要求P02的泛化场景",
+      "input": {
+        "brief": "产品外形的列车从右远处驶来，左近处停靠，开门展示内部，关门后继续向左驶离。",
+        "assets_and_observations": [
+          "只有产品闭合外观图；内部、门开启方式尚未定。"
+        ],
+        "capabilities": [
+          "支持多图和连续生成；未有本类产品开门实测。"
+        ]
+      },
+      "expected_decisions": [
+        "同一实体兼具产品/车辆/空间功能。",
+        "发现门结构、内部和内外连接状态缺口。",
+        "明确移动方向与关闭后再驶离的事件依赖。"
+      ],
+      "failure_signals": [
+        "把产品和列车当两种无关联对象。",
+        "把开门理解为外观瞬间替换。"
+      ],
+      "read_sections": [
+        "asset-selection.md：道具与产品",
+        "reference-composition.md：逻辑检查"
+      ]
+    },
+    {
+      "id": "R2V-10",
+      "title": "可见物理过程不是两个端点",
+      "category": "转场和中间状态",
+      "evidence_type": "历史用户要求P03的泛化场景",
+      "input": {
+        "brief": "石材表层裂开剥落后露出产品，镜头能看见变化过程。",
+        "assets_and_observations": [
+          "石材初态图与产品终态图均清楚。"
+        ],
+        "capabilities": [
+          "支持首尾帧，过程精度未验证。"
+        ]
+      },
+      "expected_decisions": [
+        "说明要控制裂开/剥落/露出的过程，而非只给端点。",
+        "检查是否需要关键中间状态或运动示意。",
+        "核对剥落物和产品结构/位置关系。"
+      ],
+      "failure_signals": [
+        "认为首尾帧自动保证物理剥落。",
+        "采用形状融化替代既定过程。"
+      ],
+      "read_sections": [
+        "asset-selection.md：道具与产品",
+        "asset-selection.md：分镜、关键状态与风格"
+      ]
+    },
+    {
+      "id": "R2V-11",
+      "title": "已有事件表但短回闪过长",
+      "category": "时间落实",
+      "evidence_type": "用户提供制作记录U08/P01的局部场景",
+      "input": {
+        "brief": "已有参考时间轴，回闪目标约0.43秒，实际生成1.625秒；其他内容基本可用。",
+        "assets_and_observations": [
+          "事件表与生成片段可查看，所需动作出现但包含额外停留。"
+        ],
+        "capabilities": [
+          "现有后期可调整片段速度和剪点；局部生成可用。"
+        ]
+      },
+      "expected_decisions": [
+        "沿用已有时间轴，定位到实际动作与停留区间。",
+        "先评估删除冗余/压缩后自然度，缺动作才补内容。",
+        "只修相关区间并复查连接。"
+      ],
+      "failure_signals": [
+        "归因为没有时间轴。",
+        "重做整片或随意用慢放补齐总时长。"
+      ],
+      "read_sections": [
+        "generation-strategy.md：时间落实",
+        "generation-strategy.md：失败诊断"
+      ]
+    },
+    {
+      "id": "R2V-12",
+      "title": "同种子跨分辨率的复核",
+      "category": "质量策略",
+      "evidence_type": "设计用合成场景",
+      "input": {
+        "brief": "480P试片动作通过，准备生成1080P；希望沿用同种子。",
+        "assets_and_observations": [
+          "试片及原输入可用；人物脸部在低清下不足以评估细节。"
+        ],
+        "capabilities": [
+          "有种子参数，无关联样片任务；只声明其余参数相同下可复现。"
+        ]
+      },
+      "expected_decisions": [
+        "保留可保留的输入与参数，但把跨分辨率结果视为待复核。",
+        "正式质量重查身份、动作、构图和材质。",
+        "低清试片仅验证其实际可检查的属性。"
+      ],
+      "failure_signals": [
+        "承诺同种子升级必然逐帧相同。",
+        "用低清布局通过代替1080P肤质验收。"
+      ],
+      "read_sections": [
+        "generation-strategy.md：低清验证后正式生成"
+      ]
+    },
+    {
+      "id": "R2V-13",
+      "title": "油腻画质原因尚未确认",
+      "category": "证据化诊断",
+      "evidence_type": "设计用合成场景",
+      "input": {
+        "brief": "用户反馈成片面部油腻和假高清，记录为低分辨率源片放大，另有加速参数。",
+        "assets_and_observations": [
+          "只有制作记录和用户描述，原始图、源片及后期片当前不可访问。"
+        ],
+        "capabilities": [
+          "可请求执行方返回对照资料；当前是否有高质量档位待核验。"
+        ]
+      },
+      "expected_decisions": [
+        "陈述已知处理链，保留视觉和因果不确定性。",
+        "提出原图/源片/后期同区域对照需求。",
+        "有证据后再选择参数或参考对照变量。"
+      ],
+      "failure_signals": [
+        "声称已看见参考图油亮。",
+        "直接认定加速/量化/步数是唯一原因。"
+      ],
+      "read_sections": [
+        "generation-strategy.md：失败诊断",
+        "SKILL.md：检查充分性"
+      ]
+    },
+    {
+      "id": "R2V-14",
+      "title": "音色样本短于实际入口要求",
+      "category": "音频能力条件",
+      "evidence_type": "设计用合成场景",
+      "input": {
+        "brief": "用角色音色说一句指定台词，现有3秒样本。",
+        "assets_and_observations": [
+          "单人干净声音，角色图已查看并且身份清楚。"
+        ],
+        "capabilities": [
+          "本例入口要求至少8秒音色样本，其他绑定方式已明确。"
+        ]
+      },
+      "expected_decisions": [
+        "用户3–5秒经验不覆盖当前明确最小时长。",
+        "只补该声音样本的必要可用时长。",
+        "建立角色、音色、台词与时段的语义对应。"
+      ],
+      "failure_signals": [
+        "把3–5秒写成通用硬限制。",
+        "虚构@引用语法或已完成上传。"
+      ],
+      "read_sections": [
+        "asset-selection.md：声音",
+        "reference-composition.md：图片/视频＋声音"
+      ]
+    },
+    {
+      "id": "R2V-15",
+      "title": "两角色交接道具与声音",
+      "category": "多主体属性绑定",
+      "evidence_type": "设计用合成场景",
+      "input": {
+        "brief": "A将手镯递给B，B接过并说台词，两人衣服和声音必须对应。",
+        "assets_and_observations": [
+          "两人的独立人物资料和音色样本齐全，手镯有清楚图。",
+          "交接时谁持物的状态尚未写清。"
+        ],
+        "capabilities": [
+          "多人物图与音频输入可用，声音映射可指定。"
+        ]
+      },
+      "expected_decisions": [
+        "使用独立身份/服装/声音映射。",
+        "明确道具在交接前、中、后由谁持有及接触关系。",
+        "视动作可理解性决定是否补交接状态图。"
+      ],
+      "failure_signals": [
+        "只增加更多人物正脸图而不处理交互状态。",
+        "把两人声音混为一个未分配样本。"
+      ],
+      "read_sections": [
+        "asset-selection.md：角色与服装",
+        "asset-selection.md：声音"
+      ]
+    },
+    {
+      "id": "R2V-16",
+      "title": "90度俯视中的箭头与车辆朝向",
+      "category": "空间示意解释",
+      "evidence_type": "历史用户要求/反馈P05的泛化场景",
+      "input": {
+        "brief": "俯视环岛，车辆按道路方向行驶，图中箭头仅用于说明路线。",
+        "assets_and_observations": [
+          "俯视示意有8辆车，箭头与方位清楚；另有材质风格图。"
+        ],
+        "capabilities": [
+          "能输入两张图；对路线图理解程度未实测。"
+        ]
+      },
+      "expected_decisions": [
+        "区分示意的几何/方向与风格图的外观。",
+        "注明相机垂直向下，车辆相对道路朝向明确。",
+        "箭头不作为最终道具；路线理解标为待验证。"
+      ],
+      "failure_signals": [
+        "将图内标注当命令或最终画面元素。",
+        "只写俯视而忽略车辆朝向。"
+      ],
+      "read_sections": [
+        "asset-selection.md：空间图的制作要求",
+        "reference-composition.md：属性依据"
+      ]
+    },
+    {
+      "id": "R2V-17",
+      "title": "风格化光滑材质是目标",
+      "category": "风格相关质量判断",
+      "evidence_type": "设计用合成场景",
+      "input": {
+        "brief": "制作亮面树脂玩偶动画，明确需要光滑塑料表面和夸张反光。",
+        "assets_and_observations": [
+          "玩偶图清楚，材质与用户目标一致；没有写实皮肤要求。"
+        ],
+        "capabilities": [
+          "图像参考生成已可用。"
+        ]
+      },
+      "expected_decisions": [
+        "把光滑塑料表面视为合法目标。",
+        "按玩偶造型、反光稳定和材质一致性检查。",
+        "不套用写实皮肤标准。"
+      ],
+      "failure_signals": [
+        "因为塑料感就要求去油或补毛孔。"
+      ],
+      "read_sections": [
+        "asset-selection.md：角色资料的质感检查",
+        "generation-strategy.md：源质量"
+      ]
+    },
+    {
+      "id": "R2V-18",
+      "title": "只修一个袖口",
+      "category": "局部修订与范围控制",
+      "evidence_type": "设计用合成场景",
+      "input": {
+        "brief": "已有成片主体、镜头和节奏均通过，只需修正2秒区间内一只袖口颜色。",
+        "assets_and_observations": [
+          "目标服装图、准确时间区间与两侧连续状态齐全。"
+        ],
+        "capabilities": [
+          "当前入口支持局部时间范围编辑，其他内容保留程度需结果复核。"
+        ]
+      },
+      "expected_decisions": [
+        "沿用现有角色与衣服依据，限定属性和时间范围。",
+        "不重新启动原创策划或全片资产制作。",
+        "复核局部变化及相邻连接，确认未改部分仍稳定。"
+      ],
+      "failure_signals": [
+        "为了改袖口重做全片或重新选模型套件。",
+        "自行宣布全片可发布。"
+      ],
+      "read_sections": [
+        "generation-strategy.md：失败诊断",
+        "production-brief.md：返回范围"
+      ]
+    },
+    {
+      "id": "R2V-19",
+      "title": "命名素材无法访问",
+      "category": "事实与可用性边界",
+      "evidence_type": "设计用合成场景",
+      "input": {
+        "brief": "用户称已经有角色四视图和场景图，当前只给了名字和无法打开的路径。",
+        "assets_and_observations": [
+          "只有名称，无可见图像内容或可信检查记录。"
+        ],
+        "capabilities": [
+          "执行方可能有访问权限，当前尚未确认。"
+        ]
+      },
+      "expected_decisions": [
+        "将素材标为待核验，不假定齐全或缺失。",
+        "列出与具体镜头相关的检查项。",
+        "基于可能资料给条件性方案并继续可独立判断部分。"
+      ],
+      "failure_signals": [
+        "声称看到五官一致或皮肤油亮。",
+        "把引用名字当上传成功。"
+      ],
+      "read_sections": [
+        "SKILL.md：检查充分性",
+        "production-brief.md：返回范围"
+      ]
+    },
+    {
+      "id": "R2V-20",
+      "title": "只约束开放式效果且没有指定实体",
+      "category": "无需参考的边界",
+      "evidence_type": "设计用合成场景",
+      "input": {
+        "brief": "5秒自由流动抽象色块，纯文字生成，颜色和变化顺序已明确，不引用任何图像或既有视频。",
+        "assets_and_observations": [
+          "无参考，用户明确选择纯文字。"
+        ],
+        "capabilities": [
+          "当前入口支持文字生成。"
+        ]
+      },
+      "expected_decisions": [
+        "识别没有需要外部锁定的身份/产品/固定空间。",
+        "得出无需新增参考，将既定视觉与事件交给制作方。",
+        "保持用户纯文字要求。"
+      ],
+      "failure_signals": [
+        "为了使用R2V强行制作风格帧或上传参考。",
+        "自行扩展为多Agent视频工程。"
+      ],
+      "read_sections": [
+        "generation-strategy.md：按目标选择参考使用方式",
+        "production-brief.md：最小交接"
+      ]
+    }
+  ]
+}

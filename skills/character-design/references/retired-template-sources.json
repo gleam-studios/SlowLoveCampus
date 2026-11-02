@@ -1,0 +1,38 @@
+[
+  {
+    "template": "assets/templates/realistic/portrait.txt",
+    "source_title": "写实角色正面面部肖像照",
+    "source_sha256": "9852e18dae2810fdb0cd44aa20372ca00a654eff3a3b1f603fa7c7877d6f5125",
+    "snapshot_date": "2026-10-28",
+    "packaged_sha256": "9852e18dae2810fdb0cd44aa20372ca00a654eff3a3b1f603fa7c7877d6f5125",
+    "retired_at": "2026-10-29",
+    "reason": "用户要求原写实着装路线仅保留快速综合板；源码历史和旧测试保留，当前文件移除"
+  },
+  {
+    "template": "assets/templates/realistic/head-four.txt",
+    "source_title": "写实角色肖像四视图",
+    "source_sha256": "43fbc21f99b71c383cd04f085d23f3315be80bb7912fe30b68da9abde6e57e04",
+    "snapshot_date": "2026-10-28",
+    "packaged_sha256": "43fbc21f99b71c383cd04f085d23f3315be80bb7912fe30b68da9abde6e57e04",
+    "retired_at": "2026-10-29",
+    "reason": "用户要求原写实着装路线仅保留快速综合板；源码历史和旧测试保留，当前文件移除"
+  },
+  {
+    "template": "assets/templates/realistic/half.txt",
+    "source_title": "写实角色正面半身照",
+    "source_sha256": "61dd0460d5db6178423a711f829fd5e7e0e4a8f6bd39c0866a14b8999cc26134",
+    "snapshot_date": "2026-10-28",
+    "packaged_sha256": "61dd0460d5db6178423a711f829fd5e7e0e4a8f6bd39c0866a14b8999cc26134",
+    "retired_at": "2026-10-29",
+    "reason": "用户要求原写实着装路线仅保留快速综合板；源码历史和旧测试保留，当前文件移除"
+  },
+  {
+    "template": "assets/templates/realistic/body-three.txt",
+    "source_title": "写实角色全身三视图",
+    "source_sha256": "88f4f14e7911840696fc540a4131cb385fdd24ba428dc26464a4a0222c8add6f",
+    "snapshot_date": "2026-10-28",
+    "packaged_sha256": "51477609554f04c28e99be5b3f7f7a6249ee965e84d6de5f8f7ab51d2414d438",
+    "retired_at": "2026-10-29",
+    "reason": "用户要求原写实着装路线仅保留快速综合板；源码历史和旧测试保留，当前文件移除"
+  }
+]

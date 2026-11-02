@@ -1,0 +1,209 @@
+[
+  {
+    "template": "assets/templates/realistic/board.txt",
+    "source_title": "写实角色资产宫格图",
+    "source_sha256": "00a6fd12e0f075c2a16d728559a2d1397c20b052b49c97befe8a85b0043917d3",
+    "snapshot_date": "2026-10-28",
+    "packaged_sha256": "232c6f8b0177f84c405a8811964b34b903f86ffb28f1c14f11dd8a5471f317ba",
+    "adaptation": "1.3.0仅保留一步到位快速综合板，无默认服装；实际参考与原结尾设计插槽共同控制，不再承担分阶段拼接"
+  },
+  {
+    "template": "assets/templates/cg/portrait.txt",
+    "source_title": "3D-CG角色正面面部肖像照",
+    "source_sha256": "a454c3ec74308148bbedf52679af7dda45ba643318fcdc37a3415f637735c891",
+    "snapshot_date": "2026-10-28",
+    "packaged_sha256": "a454c3ec74308148bbedf52679af7dda45ba643318fcdc37a3415f637735c891"
+  },
+  {
+    "template": "assets/templates/cg/half.txt",
+    "source_title": "3D-CG角色正面半身照",
+    "source_sha256": "c4c37cee375addc8dd6ec75b9293edf397e9cb77c24d9b09d2d281c7beeebc95",
+    "snapshot_date": "2026-10-28",
+    "packaged_sha256": "c4c37cee375addc8dd6ec75b9293edf397e9cb77c24d9b09d2d281c7beeebc95"
+  },
+  {
+    "template": "assets/templates/cg/board.txt",
+    "source_title": "3D:CG角色资产宫格图",
+    "source_sha256": "64e5088df922b744b8f788d658a6ccd9e56872849c1c1142e1c2bd1cc537e120",
+    "snapshot_date": "2026-10-28",
+    "packaged_sha256": "de6ab9318d96b51bd0e456df2359c6e13b8e0191ab2b4c6bece6a4fbffd9deda",
+    "adaptation": "1.5.1移除头部／全身补齐模式，使用独立模板隔离阶段排版；原风格与材质段保持。"
+  },
+  {
+    "template": "assets/templates/aaa/portrait.txt",
+    "source_title": "AAA-CG角色正面面部肖像照",
+    "source_sha256": "df2d4218a45f24ce3145472890fe89a3001985019dc466c5ff1e255b93fddb73",
+    "snapshot_date": "2026-10-28",
+    "packaged_sha256": "1f08bd2c32236259a87bbc5b26dfaaac31bdd8353f3e5b1e725623df7f62be75",
+    "adaptation": "；1.6.0按用户确认修正为精细写实3A角色建模与CG渲染视觉目标，保留解剖和材质技术细节及阶段排版。"
+  },
+  {
+    "template": "assets/templates/aaa/half.txt",
+    "source_title": "AAA-CG角色正面半身照",
+    "source_sha256": "ea9a788ffa5a428f2b1e90c1a0235ba5cab9d9b9215a781faaa727b094475b1e",
+    "snapshot_date": "2026-10-28",
+    "packaged_sha256": "6883855e36a985d4804bf5882419994f7a09f92eca236e26cb437cb356d0ab69",
+    "adaptation": "；1.6.0按用户确认修正为精细写实3A角色建模与CG渲染视觉目标，保留解剖和材质技术细节及阶段排版。"
+  },
+  {
+    "template": "assets/templates/aaa/body-four.txt",
+    "source_title": "AAA-CG角色资产宫格图_9x16全身四视图",
+    "source_sha256": "f8ea1e81c9915b2a4d8668e0973fbdc3a00de9bf868b273e54b8d637f6430f74",
+    "snapshot_date": "2026-10-28",
+    "packaged_sha256": "43fad9be8e16203b6bdbb5cdc922e053e46e95b4d48c392a287ffb0ba1061cef",
+    "adaptation": "；1.6.0按用户确认修正为精细写实3A角色建模与CG渲染视觉目标，保留解剖和材质技术细节及阶段排版。"
+  },
+  {
+    "template": "assets/templates/aaa/board.txt",
+    "source_title": "AAA-CG角色资产宫格图",
+    "source_sha256": "8d27cbc5c9e152aff9802fe2128a9670aab6977071df776e19712d87ac50effb",
+    "snapshot_date": "2026-10-28",
+    "packaged_sha256": "7d9d3cd78d5a1edea6d495ab9a0fe0f04798b82db420af5ba6b7d57739f0e5d1",
+    "adaptation": "1.5.0用户指定全身区域为2×2四视；通用CG全身补齐为9:16四宫格，AAA头部转独立模板；风格段保持；1.6.0按用户确认修正为精细写实3A角色建模与CG渲染视觉目标，保留解剖和材质技术细节及阶段排版。"
+  },
+  {
+    "template": "assets/templates/outfit/extract.txt",
+    "source_title": "服装+配饰提取（保持原穿戴方式）_v1.4_三核心精简版",
+    "source_sha256": "205b5e0e3cb144add0570f9d48a66695e42e128d41cc1b3597328bc1cfcecd33",
+    "snapshot_date": "2026-10-28",
+    "packaged_sha256": "2d3fc18c8b65829bbec8cf166265b202051ceb6ae7c0696a50e9188b16057c8d"
+  },
+  {
+    "template": "assets/four-view-template.txt",
+    "source": "character-outfit-design v1.0.1 (adapted)",
+    "packaged_sha256": "fc462846e12540659db49c57fb87d604351289e09e8f90f6df744fd6af5d8550"
+  },
+  {
+    "template": "assets/character-styling-template.txt",
+    "source": "character-outfit-design v1.0.1 (adapted)",
+    "packaged_sha256": "6cf3c2878f4ee5e7cc65dad43078e012934bd4b4284d2cbf71b7ecd01c80486b"
+  },
+  {
+    "template": "assets/templates/outfit/state.txt",
+    "source": "user-approved character-design plan, local implementation",
+    "packaged_sha256": "71df62d2de954b4a4c7c6a1759bb4850f597b3ee68e331bf2937c59723c1e948"
+  },
+  {
+    "template": "assets/templates/beauty/portrait.txt",
+    "source_title": "1-女模特1比1面部特写",
+    "snapshot_date": "2026-10-29",
+    "source_sha256": "c3a09de4f29e8657f79d8a993f0d478de375414ee3c2edcdbadc05eca8821dc8",
+    "packaged_sha256": "e7355d37723eed704d6fb1cd0192dc6261173f4e3fc413ef58ecd86f7feb173e",
+    "role": "美女专用原文快照；调用前按 references/realistic-routes.md 处理原文冲突",
+    "adaptation": "1.4.3基于恢复后的原女模特模板，仅完整服装段按用户原文改为白色基础款合身短袖T恤、黑色基础款运动短裤至大腿中部、柔软棉质面料与日常休闲感，其余保持"
+  },
+  {
+    "template": "assets/templates/beauty/head-four.txt",
+    "source_title": "2-女模特头部四视图",
+    "snapshot_date": "2026-10-29",
+    "source_sha256": "645dd72e1a63ff0926d88cea82ebe90d348b95899e877a47d6fde32011b69d26",
+    "packaged_sha256": "cee058b9601b4d5c9747c878c8cdb33006297fb782da056e68a0f288a8e0593b",
+    "role": "美女专用原文快照；调用前按 references/realistic-routes.md 处理原文冲突",
+    "adaptation": "1.4.3基于恢复后的原女模特模板，仅完整服装段按用户原文改为白色基础款合身短袖T恤、黑色基础款运动短裤至大腿中部、柔软棉质面料与日常休闲感，其余保持"
+  },
+  {
+    "template": "assets/templates/beauty/half.txt",
+    "source_title": "3-女模特半身胸像",
+    "snapshot_date": "2026-10-29",
+    "source_sha256": "1191908dd18d314957974fdae75e8a1bcecf3ea65a40d0c90c4f95650030d071",
+    "packaged_sha256": "9490c512b80abc752739a52bf37a58796b75431ba1fb24c504a2cc5ec52283f5",
+    "role": "美女专用原文快照；调用前按 references/realistic-routes.md 处理原文冲突",
+    "adaptation": "1.4.3基于恢复后的原女模特模板，仅完整服装段按用户原文改为白色基础款合身短袖T恤、黑色基础款运动短裤至大腿中部、柔软棉质面料与日常休闲感，其余保持"
+  },
+  {
+    "template": "assets/templates/beauty/body-three.txt",
+    "source_title": "4-女模特全身三视图",
+    "snapshot_date": "2026-10-29",
+    "source_sha256": "9cc6d99653f2e680d42719c73aea74ad2cec59c89e7182043f5fece77a750211",
+    "packaged_sha256": "04ef883e994d57a43b2e1b33bee18a35af8e517ac63ddb03828e6725eec78f20",
+    "role": "美女专用原文快照；调用前按 references/realistic-routes.md 处理原文冲突",
+    "adaptation": "1.4.3基于恢复后的原女模特模板，仅完整服装段按用户原文改为白色基础款合身短袖T恤、黑色基础款运动短裤至大腿中部、柔软棉质面料与日常休闲感，其余保持"
+  },
+  {
+    "template": "assets/templates/beauty/board.txt",
+    "source_title": "5女模特模卡宫格图 横",
+    "snapshot_date": "2026-10-29",
+    "source_sha256": "eab0db3c75dfd860968faa48344b8ba3ccbd06c4912399091f8259f726ea56a5",
+    "packaged_sha256": "f4269a5b3afa8cabfcad2206c17accacd6f1eca702757bc0108f49aa108f690d",
+    "role": "美女专用原文快照；调用前按 references/realistic-routes.md 处理原文冲突",
+    "adaptation": "1.4.3基于恢复后的原女模特模板，仅完整服装段按用户原文改为白色基础款合身短袖T恤、黑色基础款运动短裤至大腿中部、柔软棉质面料与日常休闲感，其余保持"
+  },
+  {
+    "template": "assets/templates/realistic-base/portrait.txt",
+    "source": "adapted from assets/templates/beauty/portrait.txt; user instruction 2026-10-29",
+    "adaptation": "通用基础服装版：普通T恤、裤子、鞋子；保留五阶段，与一步到位无默认服装综合板分流",
+    "packaged_sha256": "77953262fcf6c893a779085b662f895fddd7d8520de558fa10b684ae12bc333b"
+  },
+  {
+    "template": "assets/templates/realistic-base/head-four.txt",
+    "source": "adapted from assets/templates/beauty/head-four.txt; user instruction 2026-10-29",
+    "adaptation": "通用基础服装版：普通T恤、裤子、鞋子；保留五阶段，与一步到位无默认服装综合板分流",
+    "packaged_sha256": "48f0dd5d6e6913210033f0bc759594301c9346c59910e0b1449f951c0b637ba0"
+  },
+  {
+    "template": "assets/templates/realistic-base/half.txt",
+    "source": "adapted from assets/templates/beauty/half.txt; user instruction 2026-10-29",
+    "adaptation": "通用基础服装版：普通T恤、裤子、鞋子；保留五阶段，与一步到位无默认服装综合板分流",
+    "packaged_sha256": "2b214e47ffe078b8355e42105a435ea0d5f75c2b97810ac41e66935271f93b22"
+  },
+  {
+    "template": "assets/templates/realistic-base/body-three.txt",
+    "source": "adapted from assets/templates/beauty/body-three.txt; user instruction 2026-10-29",
+    "adaptation": "通用基础服装版：普通T恤、裤子、鞋子；保留五阶段，与一步到位无默认服装综合板分流",
+    "packaged_sha256": "783ff3f6fa98eaf91f336294b6b4b05ae4d13a916f77b0ac1bd25c013cd7b4fc"
+  },
+  {
+    "template": "assets/templates/realistic-base/board.txt",
+    "source": "adapted from assets/templates/beauty/board.txt; user instruction 2026-10-29",
+    "adaptation": "通用基础服装版：普通T恤、裤子、鞋子；保留五阶段，与一步到位无默认服装综合板分流",
+    "packaged_sha256": "e63ead4aa206215f93a6d6f144057529198c495dd9f298acad453147ecdeadb8"
+  },
+  {
+    "template": "assets/templates/handsome/board.txt",
+    "source": "local adaptation of assets/templates/realistic-base/board.txt; user requested handsome variant 2026-10-29",
+    "adaptation": "成年男性帅哥专用，强制高颜值和完美身材且类型不固定；1.3.1服装简化为黑色短裤，去掉旧通用穿着与排除清单",
+    "packaged_sha256": "14ab3ba22e4555fa630cc086112a0e0b2d29b604a1502594b99f02e3710be292"
+  },
+  {
+    "template": "assets/templates/handsome/body-three.txt",
+    "source": "local adaptation of assets/templates/realistic-base/body-three.txt; user requested handsome variant 2026-10-29",
+    "adaptation": "成年男性帅哥专用，强制高颜值和完美身材且类型不固定；1.3.1服装简化为黑色短裤，去掉旧通用穿着与排除清单",
+    "packaged_sha256": "a5975aa3abea64ff649c359bb2723f828c9bf10ecef3ffc1567c24e0f5166793"
+  },
+  {
+    "template": "assets/templates/handsome/half.txt",
+    "source": "local adaptation of assets/templates/realistic-base/half.txt; user requested handsome variant 2026-10-29",
+    "adaptation": "成年男性帅哥专用，强制高颜值和完美身材且类型不固定；1.3.1服装简化为黑色短裤，去掉旧通用穿着与排除清单",
+    "packaged_sha256": "afc70fb6224a283554116a6ae5e7bc31ae9ecb6d8aceb6543fcf68d15dac70d2"
+  },
+  {
+    "template": "assets/templates/handsome/head-four.txt",
+    "source": "local adaptation of assets/templates/realistic-base/head-four.txt; user requested handsome variant 2026-10-29",
+    "adaptation": "成年男性帅哥专用，强制高颜值和完美身材且类型不固定；1.3.1服装简化为黑色短裤，去掉旧通用穿着与排除清单",
+    "packaged_sha256": "543873f1a1cd3398ee8ddad107b76261f380546bcef075833bf1bdce7fe96ae3"
+  },
+  {
+    "template": "assets/templates/handsome/portrait.txt",
+    "source": "local adaptation of assets/templates/realistic-base/portrait.txt; user requested handsome variant 2026-10-29",
+    "adaptation": "成年男性帅哥专用，强制高颜值和完美身材且类型不固定；1.3.1服装简化为黑色短裤，去掉旧通用穿着与排除清单",
+    "packaged_sha256": "d6f3af6249bd38a1b7062351e57c8627bbeb83d5fa6db44d37514d6ff1ee9371"
+  },
+  {
+    "template": "assets/templates/aaa/head-four.txt",
+    "source": "local adaptation from assets/templates/aaa/portrait.txt; user request 2026-10-30",
+    "adaptation": "独立16:9头部四视模板，AAA风格／材质／摄影段逐字继承肖像，仅阶段输入和构图适配；1.6.0按用户确认修正为精细写实3A角色建模与CG渲染视觉目标，保留解剖和材质技术细节及阶段排版。",
+    "packaged_sha256": "55a13035548ee2b8906b4d730c3b5a8f8b11f7dc6506c149402a05a1e8fe6239"
+  },
+  {
+    "template": "assets/templates/cg/head-four.txt",
+    "source": "local adaptation from assets/templates/cg/board.txt; user request 2026-10-30",
+    "adaptation": "1.5.1独立阶段与排版，原CG风格及背景段逐字继承；角色与风格继续使用原插槽。",
+    "packaged_sha256": "7479a4b8483612e5e50527b3a3973ceb6afa34da98bd5f5115c3b3909b3dc833"
+  },
+  {
+    "template": "assets/templates/cg/body-four.txt",
+    "source": "local adaptation from assets/templates/cg/board.txt; user request 2026-10-30",
+    "adaptation": "1.5.1独立阶段与排版，原CG风格及背景段逐字继承；角色与风格继续使用原插槽。",
+    "packaged_sha256": "cf8336522d1ef1c643fbc65315687ab7219277ff9f55fbc9c2f0e561a3cb4999"
+  }
+]

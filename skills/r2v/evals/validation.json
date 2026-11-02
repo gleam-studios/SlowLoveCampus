@@ -1,0 +1,188 @@
+{
+  "tool": "r2v-local-structural-check",
+  "scope": "structural_only",
+  "passed": true,
+  "check_count": 24,
+  "case_count": 20,
+  "semantic_checks_automated": false,
+  "native_client_tested": false,
+  "independent_agent_tested": false,
+  "media_generation_tested": false,
+  "checks": [
+    {
+      "name": "required_files",
+      "passed": true,
+      "detail": "missing="
+    },
+    {
+      "name": "no_symlinks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "utf8_files",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no_bom_and_lf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "frontmatter_delimiters",
+      "passed": true,
+      "detail": "YAML block at file start"
+    },
+    {
+      "name": "frontmatter_scalar_parse",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "frontmatter_fields",
+      "passed": true,
+      "detail": "name, description"
+    },
+    {
+      "name": "skill_name",
+      "passed": true,
+      "detail": "r2v"
+    },
+    {
+      "name": "directory_matches_name",
+      "passed": true,
+      "detail": "r2v"
+    },
+    {
+      "name": "description_length",
+      "passed": true,
+      "detail": "217"
+    },
+    {
+      "name": "main_under_500_lines",
+      "passed": true,
+      "detail": "93"
+    },
+    {
+      "name": "local_markdown_links",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no_private_machine_paths",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "all_reference_files_linked",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "model_neutral_runtime",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no_model_directory",
+      "passed": true,
+      "detail": "capabilities are task inputs"
+    },
+    {
+      "name": "maintenance_code_only",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no_execution_permissions_declared",
+      "passed": true,
+      "detail": "no tool grants"
+    },
+    {
+      "name": "cases_json",
+      "passed": true,
+      "detail": "20"
+    },
+    {
+      "name": "unique_case_ids",
+      "passed": true,
+      "detail": "20"
+    },
+    {
+      "name": "case_structure",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "walkthrough_coverage",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "evaluation_scope_declared",
+      "passed": true,
+      "detail": "author desktop walkthrough only"
+    },
+    {
+      "name": "source_records_present",
+      "passed": true,
+      "detail": "user experience, case provenance and primary sources"
+    }
+  ],
+  "manifest_excludes": [
+    "evals/validation.json"
+  ],
+  "manifest": [
+    {
+      "path": "README.md",
+      "bytes": 2638,
+      "sha256": "2ac76d403e9a54990d500eaa40c3060da9e799f72ff75986710731d92b6b4ab1"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 8640,
+      "sha256": "f99015327a185584f8e105ea08e4c03a040f515c5063948761f5e2c9c48c2824"
+    },
+    {
+      "path": "evals/cases.json",
+      "bytes": 21873,
+      "sha256": "6f8cb16f94c9b501db7bfebe7366c46ff94b0f222a7d9a622e5163d763a77b60"
+    },
+    {
+      "path": "evals/sources.md",
+      "bytes": 4707,
+      "sha256": "853e004226248e2ab189b881fa177a143101830e7b4874968bcf47a3405ebc80"
+    },
+    {
+      "path": "evals/validate.py",
+      "bytes": 9034,
+      "sha256": "5bf1d64b3b561f24ef6971ef720883ba914834866618dee9a040e43b839cee0c"
+    },
+    {
+      "path": "evals/walkthrough.md",
+      "bytes": 10755,
+      "sha256": "748df965b4ba110ed643a58262880dae953e2eb4c8bbfe0c70282ed86798f8df"
+    },
+    {
+      "path": "references/asset-selection.md",
+      "bytes": 11107,
+      "sha256": "34be193358c987986ebf0d100dae7ff96c03a88d9fcc2e99318852af1c46e497"
+    },
+    {
+      "path": "references/generation-strategy.md",
+      "bytes": 11041,
+      "sha256": "8a53c1f5dd1c842ea9455f15ee404994bec9f0b0f9fe4d075055dfe55e976ef5"
+    },
+    {
+      "path": "references/production-brief.md",
+      "bytes": 5976,
+      "sha256": "32380e8814278251d9bc3ddc8b7027eaea5f596583a06cf3e0b3b1384ceee66b"
+    },
+    {
+      "path": "references/reference-composition.md",
+      "bytes": 5622,
+      "sha256": "a608d8cca8d5a15e4e55e609e0f9d6b8137430ae0d041fee5d79575ae76c2f5f"
+    }
+  ]
+}

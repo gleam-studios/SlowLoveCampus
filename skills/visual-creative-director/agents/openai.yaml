@@ -1,0 +1,6 @@
+interface:
+  display_name: "Visual Creative Director"
+  short_description: "将模糊视觉需求转化为有辨识度、可执行的设计"
+  default_prompt: "使用 $visual-creative-director 为这个视觉需求提供一个独特、审美统一、可执行的最佳创意方案："
+policy:
+  allow_implicit_invocation: true

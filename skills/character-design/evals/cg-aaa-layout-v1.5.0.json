@@ -1,0 +1,69 @@
+{
+  "version": "1.5.0",
+  "date": "2026-10-30",
+  "run": "character-design-cg-aaa-grid-v1.5.0-tests-2026-10-30",
+  "test": "4 independent text-only native image_gen calls, no retries",
+  "coverage": "Changed CG/AAA quick layouts, CG body grid, independent AAA head; no reference identity-lock test",
+  "templates": [
+    {
+      "template": "assets/templates/cg/board.txt",
+      "mode": "快速整板生成",
+      "template_sha256": "22b74aeec61b4168bded94a810d9b1fc6685707f0bbf2f83605cde12e7673606",
+      "expected": "3:4完整综合板，上方头部四视，下方左半身、右侧全身2×2四宫格。",
+      "generation": "succeeded",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "image_sha256": "0110799653acd72a72b3b63252938154c7acf356f8f833f16ad8491b00b7faa1",
+      "prompt_sha256": "47ff879c7ff6a525b22013ba88f9ed3abf982d942d4a3fe7a53a89d7b93d0f48",
+      "visual_review": "布局通过，局部需验收",
+      "notes": "3:4完整板，上方头部条带、下方左半身、右侧2×2全身四宫格；四格为正面／一侧／背面／相反侧，四个人物头脚完整。左主图仍偏低至大腿且插袋，顶部头部条带发丝有贴边。"
+    },
+    {
+      "template": "assets/templates/aaa/board.txt",
+      "mode": "快速整板生成",
+      "template_sha256": "e1f9fba7103c7ee3d8401063d72e4580275ab371b76b8f969a11351c5c53c72c",
+      "expected": "3:4完整综合板，上方头部四视，下方左半身、右侧全身2×2四宫格。",
+      "generation": "succeeded",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "image_sha256": "9ba5df3a2ff3d5fb7709444a080771e5e6604337df40a37411b7b3bc0d7d3d4a",
+      "prompt_sha256": "a01141a494dc4ba1861415af7dcc64ab6e9b88230197fb81970d7eb0364a8da9",
+      "visual_review": "布局通过，局部需验收",
+      "notes": "3:4完整板，右侧全身两行两列，视角顺序与截图一致，头部条带和左侧主图保留。左主图仍偏低至大腿并插袋，严格waist-up取景未完全满足。"
+    },
+    {
+      "template": "assets/templates/cg/board.txt",
+      "mode": "全身补齐",
+      "template_sha256": "22b74aeec61b4168bded94a810d9b1fc6685707f0bbf2f83605cde12e7673606",
+      "expected": "9:16，仅2×2全身四宫格：左上正面、右上左侧、左下背面、右下右侧。",
+      "generation": "succeeded",
+      "dimensions": [
+        941,
+        1672
+      ],
+      "image_sha256": "4034f6c250eb595efd5844444c97aca787451b3882f43604946ec90159f59753",
+      "prompt_sha256": "24eb4b01dfe2ed9fa34a3b5c685829f38d3d749e75b965d4771f64ee9cdef62f",
+      "visual_review": "通过",
+      "notes": "9:16，仅2×2全身四宫格，左上正面、右上一侧、左下背面、右下相反侧；头顶、手部和鞋底完整，角色尺度与基础服装一致。"
+    },
+    {
+      "template": "assets/templates/aaa/head-four.txt",
+      "mode": null,
+      "template_sha256": "971d71940888833fd99e6fb406a92fb28e9856c98df1271374dfafd90722f96e",
+      "expected": "16:9，仅四个头肩角度，一行从左至右0度、45度、90度、180度。",
+      "generation": "succeeded",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "image_sha256": "2963dc88f1c7a15f7613250bb86af46f60af7d7216246b0bfd8f0fcf4d2e2ad0",
+      "prompt_sha256": "039b93b91aa2aad0c30968d273a5737aef790d1832ab77ff7187f010df83ee90",
+      "visual_review": "通过",
+      "notes": "16:9，仅一行四个头肩角度：正面／45度／90度／背面，未混入半身、全身或综合板，AAA写实CG材质标准保留。"
+    }
+  ]
+}

@@ -1,0 +1,687 @@
+{
+  "packaged_on": "2026-11-02",
+  "platforms": [
+    "macos-arm64",
+    "macos-x64",
+    "windows-x64"
+  ],
+  "python": {
+    "version": "3.12.11",
+    "upstream": "https://github.com/astral-sh/python-build-standalone",
+    "details": "python-sources.json",
+    "licenses": "Python/*/LICENSE* and distribution license files"
+  },
+  "ffmpeg": {
+    "upstream": "https://github.com/eugeneware/ffmpeg-static",
+    "release": "b6.1.1",
+    "actual_macos_arm64_version": "6.0",
+    "details": "ffmpeg-sources.json",
+    "licenses": "FFmpeg/*/LICENSE",
+    "build_sources": "FFmpeg/*/README"
+  },
+  "windows_cpp_runtime": {
+    "version": "14.44.35112",
+    "upstream": "https://pypi.org/project/msvc-runtime/14.44.35112/",
+    "details": "msvc-sources.json",
+    "license": "Python/cpython-3.12.11-windows-x86_64-none/licenses-msvc/LICENSE"
+  },
+  "python_packages": {
+    "upstream": "https://pypi.org/",
+    "installation": "platform-specific wheels, no source builds",
+    "versions": {
+      "macos-arm64": [
+        {
+          "name": "aiohappyeyeballs",
+          "version": "2.7.1"
+        },
+        {
+          "name": "aiohttp",
+          "version": "3.14.5"
+        },
+        {
+          "name": "aiosignal",
+          "version": "1.4.0"
+        },
+        {
+          "name": "attrs",
+          "version": "26.1.0"
+        },
+        {
+          "name": "av",
+          "version": "15.1.0"
+        },
+        {
+          "name": "certifi",
+          "version": "2026.10.23"
+        },
+        {
+          "name": "charset-normalizer",
+          "version": "3.5.2"
+        },
+        {
+          "name": "coloredlogs",
+          "version": "15.0.1"
+        },
+        {
+          "name": "ctranslate2",
+          "version": "4.3.1"
+        },
+        {
+          "name": "edge-tts",
+          "version": "7.2.3"
+        },
+        {
+          "name": "faster-whisper",
+          "version": "1.2.1"
+        },
+        {
+          "name": "filelock",
+          "version": "4.2.6"
+        },
+        {
+          "name": "flatbuffers",
+          "version": "25.12.19"
+        },
+        {
+          "name": "frozenlist",
+          "version": "1.8.0"
+        },
+        {
+          "name": "fsspec",
+          "version": "2026.9.0"
+        },
+        {
+          "name": "hf-xet",
+          "version": "1.8.0"
+        },
+        {
+          "name": "huggingface-hub",
+          "version": "0.34.4"
+        },
+        {
+          "name": "humanfriendly",
+          "version": "10.0"
+        },
+        {
+          "name": "idna",
+          "version": "3.20"
+        },
+        {
+          "name": "imageio",
+          "version": "2.37.0"
+        },
+        {
+          "name": "mpmath",
+          "version": "1.3.0"
+        },
+        {
+          "name": "multidict",
+          "version": "7.2.1"
+        },
+        {
+          "name": "numpy",
+          "version": "1.26.4"
+        },
+        {
+          "name": "onnxruntime",
+          "version": "1.19.2"
+        },
+        {
+          "name": "packaging",
+          "version": "26.3"
+        },
+        {
+          "name": "pillow",
+          "version": "11.3.0"
+        },
+        {
+          "name": "propcache",
+          "version": "0.5.4"
+        },
+        {
+          "name": "protobuf",
+          "version": "7.36.2"
+        },
+        {
+          "name": "psutil",
+          "version": "7.0.0"
+        },
+        {
+          "name": "pymediainfo",
+          "version": "7.0.1"
+        },
+        {
+          "name": "PyYAML",
+          "version": "6.0.3"
+        },
+        {
+          "name": "requests",
+          "version": "2.32.5"
+        },
+        {
+          "name": "setuptools",
+          "version": "78.1.1"
+        },
+        {
+          "name": "sympy",
+          "version": "1.14.0"
+        },
+        {
+          "name": "tabulate",
+          "version": "0.10.0"
+        },
+        {
+          "name": "tokenizers",
+          "version": "0.21.4"
+        },
+        {
+          "name": "tqdm",
+          "version": "4.70.1"
+        },
+        {
+          "name": "typing_extensions",
+          "version": "4.16.0"
+        },
+        {
+          "name": "urllib3",
+          "version": "2.8.0"
+        },
+        {
+          "name": "websockets",
+          "version": "16.0"
+        },
+        {
+          "name": "yarl",
+          "version": "1.25.1"
+        }
+      ],
+      "macos-x64": [
+        {
+          "name": "aiohappyeyeballs",
+          "version": "2.7.1"
+        },
+        {
+          "name": "aiohttp",
+          "version": "3.14.5"
+        },
+        {
+          "name": "aiosignal",
+          "version": "1.4.0"
+        },
+        {
+          "name": "attrs",
+          "version": "26.1.0"
+        },
+        {
+          "name": "av",
+          "version": "15.1.0"
+        },
+        {
+          "name": "certifi",
+          "version": "2026.10.23"
+        },
+        {
+          "name": "charset-normalizer",
+          "version": "3.5.2"
+        },
+        {
+          "name": "coloredlogs",
+          "version": "15.0.1"
+        },
+        {
+          "name": "ctranslate2",
+          "version": "4.3.1"
+        },
+        {
+          "name": "edge-tts",
+          "version": "7.2.3"
+        },
+        {
+          "name": "faster-whisper",
+          "version": "1.2.1"
+        },
+        {
+          "name": "filelock",
+          "version": "4.2.6"
+        },
+        {
+          "name": "flatbuffers",
+          "version": "25.12.19"
+        },
+        {
+          "name": "frozenlist",
+          "version": "1.8.0"
+        },
+        {
+          "name": "fsspec",
+          "version": "2026.9.0"
+        },
+        {
+          "name": "hf-xet",
+          "version": "1.8.0"
+        },
+        {
+          "name": "huggingface-hub",
+          "version": "0.34.4"
+        },
+        {
+          "name": "humanfriendly",
+          "version": "10.0"
+        },
+        {
+          "name": "idna",
+          "version": "3.20"
+        },
+        {
+          "name": "imageio",
+          "version": "2.37.0"
+        },
+        {
+          "name": "mpmath",
+          "version": "1.3.0"
+        },
+        {
+          "name": "multidict",
+          "version": "7.2.1"
+        },
+        {
+          "name": "numpy",
+          "version": "1.26.4"
+        },
+        {
+          "name": "onnxruntime",
+          "version": "1.19.2"
+        },
+        {
+          "name": "packaging",
+          "version": "26.3"
+        },
+        {
+          "name": "pillow",
+          "version": "11.3.0"
+        },
+        {
+          "name": "propcache",
+          "version": "0.5.4"
+        },
+        {
+          "name": "protobuf",
+          "version": "7.36.2"
+        },
+        {
+          "name": "psutil",
+          "version": "7.0.0"
+        },
+        {
+          "name": "pymediainfo",
+          "version": "7.0.1"
+        },
+        {
+          "name": "PyYAML",
+          "version": "6.0.3"
+        },
+        {
+          "name": "requests",
+          "version": "2.32.5"
+        },
+        {
+          "name": "setuptools",
+          "version": "78.1.1"
+        },
+        {
+          "name": "sympy",
+          "version": "1.14.0"
+        },
+        {
+          "name": "tabulate",
+          "version": "0.10.0"
+        },
+        {
+          "name": "tokenizers",
+          "version": "0.21.4"
+        },
+        {
+          "name": "tqdm",
+          "version": "4.70.1"
+        },
+        {
+          "name": "typing_extensions",
+          "version": "4.16.0"
+        },
+        {
+          "name": "urllib3",
+          "version": "2.8.0"
+        },
+        {
+          "name": "websockets",
+          "version": "16.0"
+        },
+        {
+          "name": "yarl",
+          "version": "1.25.1"
+        }
+      ],
+      "windows-x64": [
+        {
+          "name": "aiohappyeyeballs",
+          "version": "2.7.1"
+        },
+        {
+          "name": "aiohttp",
+          "version": "3.14.5"
+        },
+        {
+          "name": "aiosignal",
+          "version": "1.4.0"
+        },
+        {
+          "name": "attrs",
+          "version": "26.1.0"
+        },
+        {
+          "name": "av",
+          "version": "15.1.0"
+        },
+        {
+          "name": "certifi",
+          "version": "2026.10.23"
+        },
+        {
+          "name": "charset-normalizer",
+          "version": "3.5.2"
+        },
+        {
+          "name": "colorama",
+          "version": "0.4.6"
+        },
+        {
+          "name": "coloredlogs",
+          "version": "15.0.1"
+        },
+        {
+          "name": "comtypes",
+          "version": "1.4.17"
+        },
+        {
+          "name": "ctranslate2",
+          "version": "4.3.1"
+        },
+        {
+          "name": "edge-tts",
+          "version": "7.2.3"
+        },
+        {
+          "name": "faster-whisper",
+          "version": "1.2.1"
+        },
+        {
+          "name": "filelock",
+          "version": "4.2.6"
+        },
+        {
+          "name": "flatbuffers",
+          "version": "25.12.19"
+        },
+        {
+          "name": "frozenlist",
+          "version": "1.8.0"
+        },
+        {
+          "name": "fsspec",
+          "version": "2026.9.0"
+        },
+        {
+          "name": "hf-xet",
+          "version": "1.8.0"
+        },
+        {
+          "name": "huggingface-hub",
+          "version": "0.34.4"
+        },
+        {
+          "name": "humanfriendly",
+          "version": "10.0"
+        },
+        {
+          "name": "idna",
+          "version": "3.20"
+        },
+        {
+          "name": "imageio",
+          "version": "2.37.0"
+        },
+        {
+          "name": "mpmath",
+          "version": "1.3.0"
+        },
+        {
+          "name": "multidict",
+          "version": "7.2.1"
+        },
+        {
+          "name": "numpy",
+          "version": "1.26.4"
+        },
+        {
+          "name": "onnxruntime",
+          "version": "1.19.2"
+        },
+        {
+          "name": "packaging",
+          "version": "26.3"
+        },
+        {
+          "name": "pillow",
+          "version": "11.3.0"
+        },
+        {
+          "name": "propcache",
+          "version": "0.5.4"
+        },
+        {
+          "name": "protobuf",
+          "version": "7.36.2"
+        },
+        {
+          "name": "psutil",
+          "version": "7.0.0"
+        },
+        {
+          "name": "pymediainfo",
+          "version": "7.0.1"
+        },
+        {
+          "name": "pyreadline3",
+          "version": "3.5.6"
+        },
+        {
+          "name": "PyYAML",
+          "version": "6.0.3"
+        },
+        {
+          "name": "requests",
+          "version": "2.32.5"
+        },
+        {
+          "name": "setuptools",
+          "version": "78.1.1"
+        },
+        {
+          "name": "sympy",
+          "version": "1.14.0"
+        },
+        {
+          "name": "tabulate",
+          "version": "0.10.0"
+        },
+        {
+          "name": "tokenizers",
+          "version": "0.21.4"
+        },
+        {
+          "name": "tqdm",
+          "version": "4.70.1"
+        },
+        {
+          "name": "typing_extensions",
+          "version": "4.16.0"
+        },
+        {
+          "name": "uiautomation",
+          "version": "2.0.20"
+        },
+        {
+          "name": "urllib3",
+          "version": "2.8.0"
+        },
+        {
+          "name": "websockets",
+          "version": "16.0"
+        },
+        {
+          "name": "yarl",
+          "version": "1.25.1"
+        }
+      ]
+    },
+    "licenses": "依赖/<platform>/*.dist-info/licenses/ and LICENSE/COPYING files inside distributions"
+  },
+  "whisper_model": {
+    "name": "SYSTRAN/faster-whisper-large-v3",
+    "snapshot": "edaa852ec7e145841d8ffdb056a99866b5f0a478",
+    "source": "https://huggingface.co/Systran/faster-whisper-large-v3/tree/edaa852ec7e145841d8ffdb056a99866b5f0a478",
+    "license": "MIT",
+    "license_source": "https://raw.githubusercontent.com/openai/whisper/v20240930/LICENSE",
+    "files": [
+      {
+        "path": "Whisper模型/faster-whisper-large-v3/.gitattributes",
+        "bytes": 1519,
+        "sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361"
+      },
+      {
+        "path": "Whisper模型/faster-whisper-large-v3/LICENSE",
+        "bytes": 1063,
+        "sha256": "b5d65a59060e68c4ff940e1eddfa6f94b2d68fdf58ed7f4dd57721c997e35e9d"
+      },
+      {
+        "path": "Whisper模型/faster-whisper-large-v3/README.md",
+        "bytes": 2052,
+        "sha256": "39e96252229f5a3d0141dc81afb65a36fd205461ac21e5b70f2cd1248ef0082c"
+      },
+      {
+        "path": "Whisper模型/faster-whisper-large-v3/config.json",
+        "bytes": 2394,
+        "sha256": "a9306624f5ec14270a014b647e5c316b6e03a662c369758d1b90697a7b0655b9"
+      },
+      {
+        "path": "Whisper模型/faster-whisper-large-v3/model.bin",
+        "bytes": 3087284237,
+        "sha256": "69f74147e3334731bc3a76048724833325d2ec74642fb52620eda87352e3d4f1"
+      },
+      {
+        "path": "Whisper模型/faster-whisper-large-v3/preprocessor_config.json",
+        "bytes": 340,
+        "sha256": "7ccc62c6f2765af1f3b46c00c9b5894426835a05021c8b9c01eecb6dfb542711"
+      },
+      {
+        "path": "Whisper模型/faster-whisper-large-v3/tokenizer.json",
+        "bytes": 2480617,
+        "sha256": "6d8cbd7cd0d8d5815e478dac67b85a26bbe77c1f5e0c6d76d1ce2abc0e5f21ca"
+      },
+      {
+        "path": "Whisper模型/faster-whisper-large-v3/vocabulary.json",
+        "bytes": 1068114,
+        "sha256": "c69260f2ab26d659b7c398f9a2b2b48ed0df16c3b47d7326782fd9cba71690c1"
+      }
+    ]
+  },
+  "jianying_editor": {
+    "project_path": "../skills/jianying-editor",
+    "source": "https://github.com/luoluoluo22/jianying-editor-skill/tree/32c56928ded4f9e2c2b80e099dc7abb793d2c30b",
+    "license": "MIT",
+    "project_adaptation": "../skills/jianying-editor/PROJECT_COPY.md"
+  },
+  "critical_files": [
+    {
+      "path": "FFmpeg/windows-x64/ffmpeg.exe",
+      "sha256": "04e1307997530f9cf2fe35cba2ca7e8875ca91da02f89d6c7243df819c94ad00",
+      "bytes": 82797568
+    },
+    {
+      "path": "FFmpeg/macos-x64/ffmpeg",
+      "sha256": "ebdddc936f61e14049a2d4b549a412b8a40deeff6540e58a9f2a2da9e6b18894",
+      "bytes": 78862176
+    },
+    {
+      "path": "FFmpeg/macos-arm64/ffmpeg",
+      "sha256": "a90e3db6a3fd35f6074b013f948b1aa45b31c6375489d39e572bea3f18336584",
+      "bytes": 45568216
+    },
+    {
+      "path": "FFmpeg/windows-x64/ffprobe.exe",
+      "sha256": "3a7e2dc003dc2cd1472827e4c7c4f056ae1ae0ae7c5bbc580c99b49827351ba4",
+      "bytes": 82668032
+    },
+    {
+      "path": "FFmpeg/macos-x64/ffprobe",
+      "sha256": "fa3add0ce901f7241abe0dfc0155d958fc834aca3f8ce61f87cc712ae669c1e0",
+      "bytes": 78780408
+    },
+    {
+      "path": "FFmpeg/macos-arm64/ffprobe",
+      "sha256": "bb2db6f5d8cef919da12fbf592119a987202a8c060a886f3cab091f9cab90b64",
+      "bytes": 45528808
+    },
+    {
+      "path": "Python/cpython-3.12.11-windows-x86_64-none/python.exe",
+      "sha256": "88a655a594d410e6bccef747f2cf2dc8307ec68264988bae6b274d3e5063d69f",
+      "bytes": 91648
+    },
+    {
+      "path": "Python/cpython-3.12.11-macos-x86_64-none/bin/python3.12",
+      "sha256": "c54abe472ca273877d2b14bd573a004fb9148e9818a361953def5b9701f77bce",
+      "bytes": 16652
+    },
+    {
+      "path": "Python/cpython-3.12.11-macos-aarch64-none/bin/python3.12",
+      "sha256": "6432adc2cbef21d8e525b03d9c662400994693b51976fd5d8d4501f6ac8e40a5",
+      "bytes": 49968
+    }
+  ],
+  "validation": {
+    "macos_arm64": "executed: dependency imports, model loading, actual transcription, draft generation, relocation with invalid inherited Python environment and PATH excluding Homebrew",
+    "macos_x64": "payload and architecture inspected, not executed on an Intel Mac",
+    "windows_x64": "payload, PE imports and MSVC DLLs inspected, not executed on Windows"
+  },
+  "project_adaptations": {
+    "date": "2026-11-02",
+    "guide": "../README.md",
+    "plan": "../工作区/2026-11-02_130404_跨电脑适配/实施计划.md",
+    "tests": "验证/",
+    "notes": [
+      "Project files use relative references; native application locations remain per-user.",
+      "Jianying settings are read and remembered locally; missing/ambiguous paths never create a draft root.",
+      "H3 job references are relative to jobs files, and local receipt paths relative to the project.",
+      "No browser image-generation dependency; Codex image capability is checked per session.",
+      "Windows credential files use current-user ACL; real Windows execution pending."
+    ]
+  },
+  "distribution": {
+    "mode": "download-on-first-run",
+    "manifest": "部署锁定.json",
+    "entrypoints": [
+      "运行.command",
+      "运行.bat"
+    ],
+    "payloads_not_in_git": [
+      "Python/",
+      "FFmpeg/",
+      "依赖/",
+      "Whisper模型/",
+      ".cache/"
+    ],
+    "pypi": "https://pypi.org/",
+    "wheel_policy": "Pinned versions and SHA-256; binary wheels only; offline pip install from verified downloads",
+    "model_revision": "edaa852ec7e145841d8ffdb056a99866b5f0a478"
+  }
+}

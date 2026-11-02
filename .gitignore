@@ -1,0 +1,23 @@
+# Local production history and deliverables
+/工作区/
+/输出/
+
+# Machine state, credentials and caches
+.DS_Store
+__pycache__/
+*.pyc
+*.pyo
+.env
+.env.*
+!.env.example
+!.env.sample
+.codex-imagegen/
+工具/.cache/
+*.pem
+*.key
+
+# Downloaded on first use; retain existing local payloads
+/工具/Python/
+/工具/FFmpeg/
+/工具/依赖/
+/工具/Whisper模型/

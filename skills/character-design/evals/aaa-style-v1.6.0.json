@@ -1,0 +1,117 @@
+{
+  "version": "1.6.0",
+  "run": "character-design-aaa-cg-style-v1.6.0-retest-2026-10-30",
+  "method": "同角色插槽，纯模板独立文生图，零参考图片，零模板外任务指令",
+  "generated": 5,
+  "style_acceptance": "待用户对比确认；面部仍高度写实",
+  "results": [
+    {
+      "id": "aaa--portrait",
+      "route": "aaa",
+      "stage": "portrait",
+      "source": "../assets/templates/aaa/portrait.txt",
+      "filled_placeholders": {
+        "输入具体角色设定": "角色名：岚，虚构28岁成年女性科幻侦察队长。暖铜肤色，琥珀色眼睛，颧骨与下颌结构清楚，五官有个人辨识度，冷静自信的中性表情。银白色不对称短发，左侧较短、右侧斜刘海，一小束钴蓝色发束。身高175厘米，运动员型匀称体态，肩背挺拔，身体比例协调。\n服装造型：完整覆盖身体的未来侦察制服，深石墨色织物连体作战服，外穿珍珠白陶瓷肩甲、胸甲与前臂护甲，连接处为深色软质织物，少量钴蓝色发光嵌条，黑色手套、深色靴子。装备结构清楚，白色陶瓷、金属扣件与织物材质有明确区分。所有视图保持同一人物、同一发型与同一套造型。"
+      },
+      "template_only": true,
+      "reference_images": [],
+      "source_sha256": "1f08bd2c32236259a87bbc5b26dfaaac31bdd8353f3e5b1e725623df7f62be75",
+      "status": "generated",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "image_sha256": "8ff2015a2cf008f60cf07dee17ac85e83f28758fd8e42d36847a124a9c968a26",
+      "prompt_sha256": "b3519a0e37b6377ba3a7fa6398b4db30088a0effe8c454d778c15de2552823df",
+      "review": "正面1:1肖像正确。皮肤毛孔与发丝仍高度写实；装备材质清楚，面部建模感的增强幅度有限。",
+      "style_acceptance": "pending_user_review"
+    },
+    {
+      "id": "aaa--head-four",
+      "route": "aaa",
+      "stage": "head-four",
+      "source": "../assets/templates/aaa/head-four.txt",
+      "filled_placeholders": {
+        "输入具体角色设定": "角色名：岚，虚构28岁成年女性科幻侦察队长。暖铜肤色，琥珀色眼睛，颧骨与下颌结构清楚，五官有个人辨识度，冷静自信的中性表情。银白色不对称短发，左侧较短、右侧斜刘海，一小束钴蓝色发束。身高175厘米，运动员型匀称体态，肩背挺拔，身体比例协调。\n服装造型：完整覆盖身体的未来侦察制服，深石墨色织物连体作战服，外穿珍珠白陶瓷肩甲、胸甲与前臂护甲，连接处为深色软质织物，少量钴蓝色发光嵌条，黑色手套、深色靴子。装备结构清楚，白色陶瓷、金属扣件与织物材质有明确区分。所有视图保持同一人物、同一发型与同一套造型。"
+      },
+      "template_only": true,
+      "reference_images": [],
+      "source_sha256": "55a13035548ee2b8906b4d730c3b5a8f8b11f7dc6506c149402a05a1e8fe6239",
+      "status": "generated",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "image_sha256": "8db1012806a158dbc2d40a5a0f8df2fb7b6ec42f0432cf1b115b9818500928a3",
+      "prompt_sha256": "8d3607c8d67f2272b665eac0135c7b32ddc34a753f6bba35e1dc4a96930750d6",
+      "review": "16:9头肩四视图齐全；面部与毛发仍偏高写实数字角色，盔甲体现模型材质。",
+      "style_acceptance": "pending_user_review"
+    },
+    {
+      "id": "aaa--half",
+      "route": "aaa",
+      "stage": "half",
+      "source": "../assets/templates/aaa/half.txt",
+      "filled_placeholders": {
+        "输入具体角色设定": "角色名：岚，虚构28岁成年女性科幻侦察队长。暖铜肤色，琥珀色眼睛，颧骨与下颌结构清楚，五官有个人辨识度，冷静自信的中性表情。银白色不对称短发，左侧较短、右侧斜刘海，一小束钴蓝色发束。身高175厘米，运动员型匀称体态，肩背挺拔，身体比例协调。\n服装造型：完整覆盖身体的未来侦察制服，深石墨色织物连体作战服，外穿珍珠白陶瓷肩甲、胸甲与前臂护甲，连接处为深色软质织物，少量钴蓝色发光嵌条，黑色手套、深色靴子。装备结构清楚，白色陶瓷、金属扣件与织物材质有明确区分。所有视图保持同一人物、同一发型与同一套造型。"
+      },
+      "template_only": true,
+      "reference_images": [],
+      "source_sha256": "6883855e36a985d4804bf5882419994f7a09f92eca236e26cb437cb356d0ab69",
+      "status": "generated",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "image_sha256": "1594585b857d21a4d47206f7d8d90703037329d5929e8dadb19cdb40853c5030",
+      "prompt_sha256": "10554394a2acd9273df8d19680dd9d0beb69cdf6c0d42cedae1f6037c42d86bc",
+      "review": "正面3:4半身正确；装备体积与材质层次清楚，面部仍较接近真人；下沿手部裁切。",
+      "style_acceptance": "pending_user_review"
+    },
+    {
+      "id": "aaa--body",
+      "route": "aaa",
+      "stage": "body",
+      "source": "../assets/templates/aaa/body-four.txt",
+      "filled_placeholders": {
+        "输入具体角色设定": "角色名：岚，虚构28岁成年女性科幻侦察队长。暖铜肤色，琥珀色眼睛，颧骨与下颌结构清楚，五官有个人辨识度，冷静自信的中性表情。银白色不对称短发，左侧较短、右侧斜刘海，一小束钴蓝色发束。身高175厘米，运动员型匀称体态，肩背挺拔，身体比例协调。\n服装造型：完整覆盖身体的未来侦察制服，深石墨色织物连体作战服，外穿珍珠白陶瓷肩甲、胸甲与前臂护甲，连接处为深色软质织物，少量钴蓝色发光嵌条，黑色手套、深色靴子。装备结构清楚，白色陶瓷、金属扣件与织物材质有明确区分。所有视图保持同一人物、同一发型与同一套造型。"
+      },
+      "template_only": true,
+      "reference_images": [],
+      "source_sha256": "43fad9be8e16203b6bdbb5cdc922e053e46e95b4d48c392a287ffb0ba1061cef",
+      "status": "generated",
+      "dimensions": [
+        941,
+        1672
+      ],
+      "image_sha256": "c53df9772d15bb2684b8db0479603a2cea5df651f45f729214d7cbf0105bb674",
+      "prompt_sha256": "82602d868522b01abc0198ce901225c392a28b294e187142a03cd829af227437",
+      "review": "9:16两行两列全身齐全，模型与硬表面质感清楚；两个侧面同向，左右侧视要求未通过。",
+      "style_acceptance": "pending_user_review"
+    },
+    {
+      "id": "aaa--board",
+      "route": "aaa",
+      "stage": "board",
+      "source": "../assets/templates/aaa/board.txt",
+      "filled_placeholders": {
+        "输入具体角色设定": "角色名：岚，虚构28岁成年女性科幻侦察队长。暖铜肤色，琥珀色眼睛，颧骨与下颌结构清楚，五官有个人辨识度，冷静自信的中性表情。银白色不对称短发，左侧较短、右侧斜刘海，一小束钴蓝色发束。身高175厘米，运动员型匀称体态，肩背挺拔，身体比例协调。\n服装造型：完整覆盖身体的未来侦察制服，深石墨色织物连体作战服，外穿珍珠白陶瓷肩甲、胸甲与前臂护甲，连接处为深色软质织物，少量钴蓝色发光嵌条，黑色手套、深色靴子。装备结构清楚，白色陶瓷、金属扣件与织物材质有明确区分。所有视图保持同一人物、同一发型与同一套造型。",
+        "输出模式": "快速整板生成",
+        "本次输入与参考职责": "无图片参考，角色依据下方文字设定首次设计。",
+        "本次整体设计与保持项": "角色名：岚，虚构28岁成年女性科幻侦察队长。暖铜肤色，琥珀色眼睛，颧骨与下颌结构清楚，五官有个人辨识度，冷静自信的中性表情。银白色不对称短发，左侧较短、右侧斜刘海，一小束钴蓝色发束。身高175厘米，运动员型匀称体态，肩背挺拔，身体比例协调。\n服装造型：完整覆盖身体的未来侦察制服，深石墨色织物连体作战服，外穿珍珠白陶瓷肩甲、胸甲与前臂护甲，连接处为深色软质织物，少量钴蓝色发光嵌条，黑色手套、深色靴子。装备结构清楚，白色陶瓷、金属扣件与织物材质有明确区分。所有视图保持同一人物、同一发型与同一套造型。"
+      },
+      "template_only": true,
+      "reference_images": [],
+      "source_sha256": "7d9d3cd78d5a1edea6d495ab9a0fe0f04798b82db420af5ba6b7d57739f0e5d1",
+      "status": "generated",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "image_sha256": "5e6c91cb2afb0620d86e4f793c06ba07913da3e272e4ccf8ad12577e0852ff46",
+      "prompt_sha256": "f5b82f45c19cac62d721ae06aef24208be74bb4e5dd3faf7bdea8a81579acdd5",
+      "review": "头部条带、左半身、右侧2×2全身区域齐全；左右侧方向不同。左半身斜身、手部接近下沿，未完全满足正面自然姿态。",
+      "style_acceptance": "pending_user_review"
+    }
+  ]
+}
